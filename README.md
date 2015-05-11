@@ -24,7 +24,7 @@
 ```javascript
 var fleekRouter = require('fleek-router');
 
-app.use(fleekRouter({
+fleekRouter(app, {
   controllers : 'foo/controllers', // default: /controllers
   swagger     : 'docs/swagger.json', // default: /config/api.json || /api.json
   authenicate : function *(next) { yield next; } // soon: require('fleek-athenticate')
