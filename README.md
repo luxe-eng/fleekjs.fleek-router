@@ -13,7 +13,7 @@ Quick reference:
 
 ## Key
 
-- [Usage](#Usage)
+- [Usage](#usage)
   - [Basic](#basic)
   - [Fully Custom (paths)](#fully-custom-paths)
   - [Fully Custom (objects)](#fully-custom-objects)
@@ -33,7 +33,7 @@ Quick reference:
 - Swagger docs will be retrieved from `./api.json`, `/swagger.json`, `/config/api.json`, or `/config/swagger.json` in that order
 - [**TODO** Full example]()
 
-``javascript
+```javascript
 var koa         = require('koa');
 var fleekRouter = require('fleek-router');
 var app = koa();
@@ -49,7 +49,7 @@ app.listen(3000);
 - Swagger docs are pulled from `./custom/docs.json`
 - [**TODO** Full example]()
 
-``javascript
+```javascript
 var koa         = require('koa');
 var fleekRouter = require('fleek-router');
 var app = koa();
@@ -70,7 +70,7 @@ app.listen(3000);
 - Swagger docs are parsed from the object provided
 - [**TODO** Full example]()
 
-``javascript
+```javascript
 var koa         = require('koa');
 var fleekRouter = require('fleek-router');
 var app = koa();
@@ -96,7 +96,7 @@ app.listen(3000);
 - validate and authenticate will use the fleek middleware
 - [**TODO** Full example]()
 
-``javascript
+```javascript
 var koa         = require('koa');
 var fleekRouter = require('fleek-router');
 var app = koa();
