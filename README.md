@@ -19,6 +19,9 @@ Quick reference:
   - [Fully Custom (objects)](#fully-custom-objects)
   - [Koa on Fleek](#koa-on-fleek)
 - [Configuration](#configuration)
+  - [`config.versionPrefix`](#configversionprefix)
+  - [`config.languanePrefix`](#configlanguageprefix)
+  - [`config.basePath`](#configbasepath)
   - [`config.swagger`](#configswagger)
   - [`config.controllers`](#configcontrollers)
   - [`config.authenticate`](#configauthenticate)
@@ -111,6 +114,64 @@ app.listen(3000);
 
 ## Configuration
 
+
+### config.versionPrefix
+
+#### [optional]
+
+#### summary
+
+- adds a version prefix
+
+#### accepts
+
+- `String` - use the string passed in as the prefix
+- `Boolean` - if true, use the `version_prefix` property from the swagger docs
+
+```javascript
+config.versionPrefix = 'v1';
+// OR
+config.versionPrefix = true;
+```
+
+
+### config.languagePrefix
+
+#### [optional]
+
+#### summary
+
+- adds a version prefix
+
+#### accepts
+
+- `String` - use the string passed in as the prefix
+- `Boolean` - if true, use the `language_prefix` property from the swagger docs
+
+```javascript
+config.languagePrefix = 'en';
+// OR
+config.languagePrefix = true;
+```
+
+### config.basePath
+
+#### [optional]
+
+#### summary
+
+- adds a version prefix
+
+#### accepts
+
+- `String` - use the string passed in as the prefix
+- `Boolean` - if true, use the `basePath` property from the swagger docs
+
+```javascript
+config.basePath = 'v1/en';
+// OR
+config.basePath = true;
+```
 
 
 ### config.swagger
