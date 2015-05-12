@@ -56,7 +56,7 @@ var app = koa();
 
 fleekRouter(app, {
   controllers : './controllers',
-  swager      : './custom/docs.json'
+  swagger      : './custom/docs.json'
   authenicate : require('./some_auth_middleware'),
   validate    : require('./some_val_middleware')
 });
@@ -78,7 +78,7 @@ var app = koa();
 fleekRouter(app, {
   authenicate : require('./some/auth/middleware'),
   validate    : require('./some/val/middleware')
-  swager      : require(./some/swagger/generator)(),
+  swagger      : require(./some/swagger/generator)(),
   controllers : {
     foo : function () {
       this.body = { success: true };
