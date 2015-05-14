@@ -106,7 +106,12 @@ var app = koa();
 
 fleekRouter(app, {
   authenicate : true,
-  validate    : true
+  validate    : { // powered by fleek-validator
+    error : function *(err, next) {
+      this.body = 'uh oh! validation failed',
+      console.log(err);
+    }
+  }
 });
 
 app.listen(3000);
