@@ -80,8 +80,8 @@ var app = koa();
 
 fleekRouter(app, {
   authenicate : require('./some/auth/middleware'),
-  validate    : require('./some/val/middleware')
-  swagger      : require(./some/swagger/generator)(),
+  validate    : require('./some/val/middleware'),
+  swagger      : require('./some/swagger/generator')(),
   controllers : {
     foo : function () {
       this.body = { success: true };
@@ -181,7 +181,7 @@ config.basePath = true;
 
 ### config.swagger
 
-#### [required]
+#### [optional]
 
 #### summary
 
@@ -206,7 +206,7 @@ config.swagger = require('./a/function/returning/swag')();
 
 ### config.controllers
 
-#### [required]
+#### [optional]
 
 #### summary
 
