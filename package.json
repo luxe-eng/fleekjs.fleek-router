@@ -19,6 +19,6 @@
     "fs": "0.0.2",
     "koa-router": "^4.3.2",
     "lodash": "^3.8.0",
-    "fleek-validator" : "^0.0.1"
+    "fleek-validator": "git+ssh://git@github.com:gohart/fleek-validator.git#v0.0.1"
   }
 }
