@@ -16,9 +16,10 @@
   },
   "license": "MIT",
   "dependencies": {
+    "fleek-validator": "git+ssh://git@github.com:gohart/fleek-validator.git#v0.2.1",
     "fs": "0.0.2",
     "koa-router": "^4.3.2",
     "lodash": "^3.8.0",
-    "fleek-validator": "git+ssh://git@github.com:gohart/fleek-validator.git#v0.2.1"
+    "swagger-injector": "^1.0.0"
   }
 }
