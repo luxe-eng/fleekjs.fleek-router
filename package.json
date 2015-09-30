@@ -1,6 +1,6 @@
 {
   "name": "fleek-router",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "A router for the fleek framework",
   "main": "lib/router.js",
   "scripts": {
