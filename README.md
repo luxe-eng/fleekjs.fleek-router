@@ -28,6 +28,7 @@ Quick reference:
   - [`config.controllers`](#configcontrollers)
   - [`config.authenticate`](#configauthenticate)
   - [`config.validate`](#configvalidate)
+- [Reference Material](#reference-material)
 - [Authors](#authors)
 
 ## Usage
@@ -322,6 +323,19 @@ config.inject = function *(next) {
   yield next;
 }
 ```
+
+## Reference Material
+
+#### Swagger
+
+- [Home](http://swagger.io/)
+- [Editor Demo](http://editor.swagger.io/)
+- [Documentation](https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md)
+
+#### By the authors
+
+- [Hart Engineering](http://engineering.hart.com/)
+
 
 ## Authors
 
