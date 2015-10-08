@@ -1,5 +1,7 @@
 # Fleek Router
 
+[![Build Status](https://travis-ci.org/fleekjs/fleek-router.svg)](https://travis-ci.org/fleekjs/fleek-router) [![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/fleekjs/fleek-router/blob/master/LICENSE)  [![Dependencies](https://img.shields.io/david/fleekjs/fleek-router.svg)](https://david-dm.org/fleekjs/fleek-router) [![Join the chat at https://gitter.im/fleekjs/fleek-router](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fleekjs/fleek-router?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Middleware router that merges swagger docs with matching controllers.
 
 Quick reference:
@@ -26,6 +28,7 @@ Quick reference:
   - [`config.controllers`](#configcontrollers)
   - [`config.authenticate`](#configauthenticate)
   - [`config.validate`](#configvalidate)
+- [Reference Material](#reference-material)
 - [Authors](#authors)
 
 ## Usage
@@ -34,7 +37,7 @@ Quick reference:
 
 - Controllers are pulled from the `./controllers` directory
 - Swagger docs will be retrieved from `./api.json`, `/swagger.json`, `/config/api.json`, or `/config/swagger.json` in that order
-- [**TODO** Full example]()
+- [Full example](/examples/basic)
 
 ```javascript
 var koa         = require('koa');
@@ -321,7 +324,23 @@ config.inject = function *(next) {
 }
 ```
 
+## Reference Material
+
+#### Swagger
+
+- [Home](http://swagger.io/)
+- [Editor Demo](http://editor.swagger.io/)
+- [Documentation](https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md)
+
+#### By the authors
+
+- [Hart Engineering](http://engineering.hart.com/)
+
+
 ## Authors
 
 - [John Hofrichter](https://github.com/johnhof)
 - [Peter A. Tariche](https://github.com/ptariche)
+- [Lan Nguyen](https://github.com/lan-nguyen91)
+
+_Built and maintained with [<img width="15px" src="http://hart.com/wp-content/themes/hart/img/hart_logo.svg">](http://hart.com/) by the [Hart](http://hart.com/) team._
