@@ -1,4 +1,4 @@
-J:# Fleek Router
+# Fleek Router
 
 Middleware router that merges swagger docs with matching controllers.
 
