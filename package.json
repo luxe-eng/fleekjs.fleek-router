@@ -17,7 +17,6 @@
   },
   "license": "MIT",
   "dependencies": {
-<<<<<<< HEAD
     "fleek-validator": "git+ssh://git@github.com:fleekjs/fleek-validator.git#v0.4.2",
     "fleek-parser": "git+ssh://git@github.com:fleekjs/fleek-parser.git#v0.0.2",
     "fleek-response": "git+ssh@github.com:fleekjs/fleek-response.git#v0.0.2",
