@@ -19,8 +19,7 @@
   "dependencies": {
     "fleek-validator": "0.5.0",
     "fleek-response": "^0.4.0",
-    "fleek-parser": "^0.1.3",
-    "fleek-validator": "^0.5.0",
+    "fleek-parser": "^0.1.5",
     "fs": "0.0.2",
     "genit": "^1.0.2",
     "koa-router": "^5.2.3",
