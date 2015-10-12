@@ -64,7 +64,8 @@ fleekRouter(app, {
   controllers : './controllers',
   swagger      : './custom/docs.json'
   authenicate : require('./some_auth_middleware'),
-  validate    : require('./some_val_middleware')
+  validate    : require('./some_val_middleware'),
+  response    : true
 });
 
 app.listen(3000);
