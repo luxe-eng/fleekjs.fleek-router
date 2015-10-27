@@ -1,6 +1,6 @@
 {
   "name": "fleek-router",
-  "version": "0.4.0",
+  "version": "0.4.4",
   "description": "A router for the fleek framework",
   "main": "lib/router.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "fleek-validator": "0.5.0",
     "fleek-response": "git@github.com:fleekjs/fleek-response.git",
-    "fleek-parser": "git@github.com:fleekjs/fleek-parser.git",
+    "fleek-parser": "^0.1.7",
     "fs": "0.0.2",
     "genit": "^1.0.2",
     "koa-router": "^5.2.3",
