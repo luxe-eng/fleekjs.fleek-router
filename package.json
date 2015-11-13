@@ -17,8 +17,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "fleek-parser": "^0.1.7",
-    "fleek-validator": "^0.5.0",
+    "fleek-validator": "0.5.0",
+    "fleek-response": "git@github.com:fleekjs/fleek-response.git",
+    "fleek-parser": "^1.0.0",
     "fs": "0.0.2",
     "genit": "^1.0.2",
     "koa-router": "^5.2.3",
