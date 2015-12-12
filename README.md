@@ -304,25 +304,40 @@ config.validate = function *(next) {
 }
 ```
 
-### config.inject
+### config.middleware
 
 #### [optional]
 
 #### summary
 
 - middleware to fire before the controller
-- used to make changes for every request after all fluent middleware has fired
+- used to make changes for every request after all fleek middleware has fired
 
 #### accepts
 
-- `Function` - function to use for validation
+- `Function*` - function to execute
+- `Array` - array of functions to execture in order
 
 ```javascript
-config.inject = function *(next) {
+config.middleware = function *(next) {
   console.log('Route middleware passed!');
   console.log('Executing controller: ' + this.routeConfig.controller);
   yield next;
 }
+
+// OR
+
+config.middleware = [
+  function *(next) {
+    console.log('1');
+    yield next;
+  },
+  function *(next) {
+    console.log('2');
+    yield next;
+  }
+]
+
 ```
 
 ## Reference Material
