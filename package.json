@@ -1,6 +1,6 @@
 {
   "name": "fleek-router",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A router for the fleek framework",
   "repository": "https://github.com/fleekjs/fleek-router",
   "main": "lib/router.js",
@@ -18,9 +18,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "fleek-parser": "git@github.com:luxe-eng/fleekjs.fleek-parser.git#v1.0.0",
-    "fleek-response": "git@github.com:luxe-eng/fleekjs.fleek-router.git#v0.4.2",
-    "fleek-validator": "git@github.com:luxe-eng/fleekjs.fleek-validator.git#v0.5.5",
+    "fleek-parser": "git@github.com:luxe-eng/fleekjs.fleek-parser.git#v2.0.0",
+    "fleek-response": "git@github.com:luxe-eng/fleekjs.fleek-response.git#v2.0.0",
+    "fleek-validator": "git@github.com:luxe-eng/fleekjs.fleek-validator.git#v2.0.0",
     "fs": "0.0.2",
     "genit": "^1.0.2",
     "koa-router": "^5.2.3",
