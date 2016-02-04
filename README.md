@@ -5,8 +5,8 @@
 Middleware router that merges swagger docs with matching controllers.
 
 Quick reference:
-- Controllers for a route are determined by the first tag in the route+method docs
-  - `spaggerDoc.paths['/users'].get.tags[0]` -> controller name
+- Controllers for a route are determined by the `x-controller` tag in the route+method docs
+  - `spaggerDoc.paths['/users']['x-controller']` -> controller name
 - Authentication is set per route by including an `authenticate` tag for the route+method
   - `swaggerdoc.paths['/users/:id/edit'].tags = [fooController, authenticate]`
 - Validate is run on all routes
